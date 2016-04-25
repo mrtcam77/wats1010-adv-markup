@@ -1,1 +1,63 @@
-/* Styles for the Advanced Markup assignment. */
+body{
+		background-color: lightgray;
+		
+}
+title h1 {
+		margin-left: 10px;
+}
+nav ul li {
+    display: inline;
+		clear: bottom;
+		margin-top: -20px;
+}
+h2,h3,h4,h5, p, title{
+		font-family: georgia;
+}
+a.active {
+   font-weight: bold; 
+}
+header{
+		width: 100%;
+		background-color: darkgray;
+}
+#sidebar {
+  width: 250px;
+  float: right;
+  background: red;
+  margin: 20px;
+  padding: 15px;
+	clear: both;
+}
+.poem{
+    list-style:none;
+    text-align: justify;
+    font-family: cursive;
+}
+.bio-photo{
+		float: left;
+		width: 250px;
+		height: auto;
+		margin: 30px;
+}
+p.bio-photo{
+		text-align: center;
+}
+
+#selected_works{
+		float: right;
+		width: 400px;
+		margin: 25px;
+}
+#content{
+		width: 750px;
+		padding: 50px;
+}
+.bottom-nav ul {
+		list-style: none;
+}
+footer{
+		margin-bottom: 0px;
+		background-color: lightgray;
+		position: bottom;
+		clear: both;
+}
